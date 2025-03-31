@@ -1,0 +1,21 @@
+.cards-products img {
+    height: 80%;
+}
+
+.cards-products .column img {
+    height: 25%;
+    width: 81%;
+}
+
+.cards-products .content-products {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    bottom: 0;
+    top: 100%;
+}
+
+.cards-collection .cards {
+    margin-left: 1rem;
+}

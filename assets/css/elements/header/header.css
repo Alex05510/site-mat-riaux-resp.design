@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/****/
+.header-mobile {
+    opacity: 0;
+}
+/*******/
+
+.row-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+.row-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.user-menu ul, .navbar ul  {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.navbar ul li a { 
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.banner-image {
+    position: relative;
+}
+
+.encart-banner {
+    position: absolute;
+    background-color: #737373;
+    width: 35%;
+    padding: 2rem;
+    top: 30%;
+    left: 50%;
+}
+
+
+
+

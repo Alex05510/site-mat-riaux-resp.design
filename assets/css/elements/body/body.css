@@ -1,0 +1,119 @@
+.card-products-mobile {
+    display: none;
+}
+
+.cards-products {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.encart-banner a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.vision .banner {
+    background-image: url(/assets/images/background-vision.png);
+    object-fit: cover;
+    background-repeat: round;
+    padding: 10rem;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 3rem;
+}
+
+.vision {
+    margin-bottom: 3rem;
+}
+
+.overlay-vision {
+    position: absolute;
+    left: 12rem;
+    top: 106rem;
+    width: 33%;
+}
+
+.vision .encart {
+    background-color: #f7f7f7;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.vision h2, p {
+    margin-bottom: 2rem;
+}
+
+.row-cards {
+    display: flex;
+}
+
+.column-cards-image {
+    width: 50%;
+}
+
+.column-image {
+    width: 50%;
+}
+
+.column-cards-image .content {
+    width: 40%;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-cs .cards img {
+    margin-left: 3rem;
+}
+
+.container-cs .content {
+    margin-top: 2rem;
+}
+
+.picto {
+    position: absolute;
+    display: flex;
+    background-color: #ffff;
+    padding: 1rem;
+    top: 164rem;
+    left: 77rem;
+    align-items: center;
+}
+
+.picto ul {
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.row-collection-1, .row-collection-2 {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+
+
+.price ul {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.price, ul {
+    text-align: center;
+    justify-content: center;
+}
+
+ .price ul li:first-child{
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #cacaca;
+}

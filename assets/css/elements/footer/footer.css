@@ -1,0 +1,26 @@
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.row-about {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+.logo-footer {
+    line-height: 5rem;
+}
+
+.services-footer ul li, .products-footer ul li {
+    list-style: none;
+    text-align: left;
+    line-height: 1.5rem;
+    color: #a19f9f;
+}
+
+
+h3 {
+   line-height: 3rem; 
+}
